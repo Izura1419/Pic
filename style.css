@@ -48,3 +48,21 @@ button{
 
 	cursor: pointer;
 }
+@media (max-width: 700px){
+	input{
+		width:  80%;
+		height:  5%;
+
+		top:  80%;
+		left:  50%;
+		transform: translate(-50%,-50%);
+	}
+	button{
+		width:  50px;
+		height:  50px;
+
+		top:  90%;
+		left:  50%;
+		transform: translate(-50%,-50%);
+	}
+}
