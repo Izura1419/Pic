@@ -29,7 +29,11 @@ input.addEventListener('keydown', (e) => {
 		img.src = input.value;
 	}
 });
-function eraser() {
+function addOrEraser() {
+	if (input.value !== "") {
+		ctx.clearRect(100,0,1000,1000);
+		img.src = input.value;
+	}
 	input.value = null;
 }
 //adap
